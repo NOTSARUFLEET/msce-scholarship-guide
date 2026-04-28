@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "MSCE SCHOLARSHIP GUIDE",
+    "displayName": "MSCE SCHOLARSHIP GUIDE",
+    "slug": "msce-scholarship-2026",
+    "scheme": "msce-scholarship-2026",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3690626884597677~5724718559",
+          "iosAppId": "ca-app-pub-3690626884597677~5724718559"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.sachinnandargea.mscescholarshipguide"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sachinnandargea.mscescholarshipguide"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "math-7-algebra-01",
+    "grade": 7,
+    "paper": "paper1",
+    "subject": "mathematics",
+    "chapter": "Algebraic Expressions",
+    "difficulty": "medium",
+    "question": {
+      "en": "If \\(3x + 7 = 28\\), what is the value of \\(x\\)?",
+      "mr": "\\(3x + 7 = 28\\) असल्यास \\(x\\) ची किंमत किती?"
+    },
+    "options": [
+      { "id": "a", "en": "5", "mr": "5" },
+      { "id": "b", "en": "6", "mr": "6" },
+      { "id": "c", "en": "7", "mr": "7" },
+      { "id": "d", "en": "8", "mr": "8" }
+    ],
+    "correctOptionId": "c",
+    "weight": 3,
+    "equation": "3x+7=28",
+    "hiddenExplanation": {
+      "en": "Subtract 7 from both sides to get 3x = 21. Then divide by 3, so x = 7.",
+      "mr": "दोन्ही बाजूंनी 7 वजा केल्यावर 3x = 21 मिळते. नंतर 3 ने भागल्यावर x = 7 मिळते."
+    }
+  },
+  {
+    "id": "math-7-geometry-02",
+    "grade": 7,
+    "paper": "paper1",
+    "subject": "mathematics",
+    "chapter": "Geometry",
+    "difficulty": "hard",
+    "question": {
+      "en": "The angles of a triangle are in the ratio 2:3:4. What is the largest angle?",
+      "mr": "त्रिकोणातील कोनांचे प्रमाण 2:3:4 आहे. सर्वात मोठा कोन किती?"
+    },
+    "options": [
+      { "id": "a", "en": "80°", "mr": "80°" },
+      { "id": "b", "en": "90°", "mr": "90°" },
+      { "id": "c", "en": "100°", "mr": "100°" },
+      { "id": "d", "en": "120°", "mr": "120°" }
+    ],
+    "correctOptionId": "a",
+    "weight": 4,
+    "equation": "\\frac{2}{9}\\times 180,\\frac{3}{9}\\times 180,\\frac{4}{9}\\times 180",
+    "hiddenExplanation": {
+      "en": "The total ratio is 9. Each part is 180/9 = 20°. Largest angle = 4 × 20° = 80°.",
+      "mr": "एकूण प्रमाण 9 आहे. प्रत्येक भाग 180/9 = 20° येतो. सर्वात मोठा कोन = 4 × 20° = 80°."
+    }
+  },
+  {
+    "id": "math-7-profit-loss-03",
+    "grade": 7,
+    "paper": "paper1",
+    "subject": "mathematics",
+    "chapter": "Profit and Loss",
+    "difficulty": "medium",
+    "question": {
+      "en": "A notebook is bought for Rs. 40 and sold for Rs. 48. What is the profit percent?",
+      "mr": "एक वही 40 रुपयांना घेतली आणि 48 रुपयांना विकली. नफा टक्केवारी किती?"
+    },
+    "options": [
+      { "id": "a", "en": "10%", "mr": "10%" },
+      { "id": "b", "en": "15%", "mr": "15%" },
+      { "id": "c", "en": "20%", "mr": "20%" },
+      { "id": "d", "en": "25%", "mr": "25%" }
+    ],
+    "correctOptionId": "c",
+    "hiddenExplanation": {
+      "en": "Profit = 48 - 40 = 8. Profit percent = (8/40) × 100 = 20%.",
+      "mr": "नफा = 48 - 40 = 8. नफा टक्केवारी = (8/40) × 100 = 20%."
+    }
+  },
+  {
+    "id": "math-7-fractions-04",
+    "grade": 7,
+    "paper": "paper1",
+    "subject": "mathematics",
+    "chapter": "Fractions and Decimals",
+    "difficulty": "hard",
+    "question": {
+      "en": "Evaluate \\(\\frac{3}{4} + \\frac{5}{8}\\).",
+      "mr": "\\(\\frac{3}{4} + \\frac{5}{8}\\) याची किंमत काढा."
+    },
+    "options": [
+      { "id": "a", "en": "\\(\\frac{9}{8}\\)", "mr": "\\(\\frac{9}{8}\\)" },
+      { "id": "b", "en": "\\(\\frac{11}{8}\\)", "mr": "\\(\\frac{11}{8}\\)" },
+      { "id": "c", "en": "\\(\\frac{13}{8}\\)", "mr": "\\(\\frac{13}{8}\\)" },
+      { "id": "d", "en": "\\(\\frac{15}{8}\\)", "mr": "\\(\\frac{15}{8}\\)" }
+    ],
+    "correctOptionId": "b",
+    "equation": "\\frac{3}{4}+\\frac{5}{8}=\\frac{6}{8}+\\frac{5}{8}=\\frac{11}{8}",
+    "hiddenExplanation": {
+      "en": "Convert 3/4 into 6/8. Then add 6/8 + 5/8 = 11/8.",
+      "mr": "3/4 चे 6/8 मध्ये रूपांतर करा. मग 6/8 + 5/8 = 11/8."
+    }
+  },
+  {
+    "id": "math-7-percentage-05",
+    "grade": 7,
+    "paper": "paper1",
+    "subject": "mathematics",
+    "chapter": "Percentage",
+    "difficulty": "medium",
+    "question": {
+      "en": "What is 18% of 250?",
+      "mr": "250 चे 18% किती?"
+    },
+    "options": [
+      { "id": "a", "en": "40", "mr": "40" },
+      { "id": "b", "en": "45", "mr": "45" },
+      { "id": "c", "en": "50", "mr": "50" },
+      { "id": "d", "en": "55", "mr": "55" }
+    ],
+    "correctOptionId": "b",
+    "hiddenExplanation": {
+      "en": "18% of 250 = (18/100) × 250 = 45.",
+      "mr": "250 चे 18% = (18/100) × 250 = 45."
+    }
+  },
+  {
+    "id": "iq-series-01",
+    "grade": 7,
+    "paper": "paper2",
+    "subject": "intelligence",
+    "chapter": "Number Series",
+    "difficulty": "medium",
+    "question": {
+      "en": "Find the next number: 3, 6, 12, 24, __",
+      "mr": "पुढील संख्या शोधा: 3, 6, 12, 24, __"
+    },
+    "options": [
+      { "id": "a", "en": "30", "mr": "30" },
+      { "id": "b", "en": "36", "mr": "36" },
+      { "id": "c", "en": "48", "mr": "48" },
+      { "id": "d", "en": "54", "mr": "54" }
+    ],
+    "correctOptionId": "c",
+    "hiddenExplanation": {
+      "en": "Each term is doubled: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, so 24 × 2 = 48.",
+      "mr": "प्रत्येक पद दुप्पट केले आहे: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, म्हणून 24 × 2 = 48."
+    }
+  },
+  {
+    "id": "iq-analogy-02",
+    "grade": 4,
+    "paper": "paper2",
+    "subject": "intelligence",
+    "chapter": "Analogy",
+    "difficulty": "easy",
+    "question": {
+      "en": "Bird : Nest :: Bee : ?",
+      "mr": "पक्षी : घरटे :: मधमाशी : ?"
+    },
+    "options": [
+      { "id": "a", "en": "Hive", "mr": "पोळे" },
+      { "id": "b", "en": "Cave", "mr": "गुहा" },
+      { "id": "c", "en": "Tree", "mr": "झाड" },
+      { "id": "d", "en": "Leaf", "mr": "पान" }
+    ],
+    "correctOptionId": "a",
+    "hiddenExplanation": {
+      "en": "A bird lives in a nest, and a bee lives in a hive.",
+      "mr": "पक्षी घरट्यात राहतो आणि मधमाशी पोळ्यात राहते."
+    }
+  },
+  {
+    "id": "iq-pattern-03",
+    "grade": 7,
+    "paper": "paper2",
+    "subject": "intelligence",
+    "chapter": "Visual Pattern",
+    "difficulty": "hard",
+    "question": {
+      "en": "If all squares are rectangles and some rectangles are circles, which statement is definitely true?",
+      "mr": "सर्व चौकोन आयत आहेत आणि काही आयत वर्तुळे आहेत, तर खालीलपैकी कोणते विधान नक्की खरे आहे?"
+    },
+    "options": [
+      { "id": "a", "en": "All circles are squares", "mr": "सर्व वर्तुळे चौकोन आहेत" },
+      { "id": "b", "en": "Some squares are circles", "mr": "काही चौकोन वर्तुळे आहेत" },
+      { "id": "c", "en": "All squares are rectangles", "mr": "सर्व चौकोन आयत आहेत" },
+      { "id": "d", "en": "No rectangle is a circle", "mr": "एकही आयत वर्तुळ नाही" }
+    ],
+    "correctOptionId": "c",
+    "hiddenExplanation": {
+      "en": "The first condition already guarantees that every square is a rectangle.",
+      "mr": "पहिली अटच सांगते की प्रत्येक चौकोन हा आयत आहे."
+    }
+  },
+  {
+    "id": "iq-coding-04",
+    "grade": 7,
+    "paper": "paper2",
+    "subject": "intelligence",
+    "chapter": "Coding-Decoding",
+    "difficulty": "medium",
+    "question": {
+      "en": "If CAT is coded as DBU, how is DOG coded in the same way?",
+      "mr": "CAT ला DBU असे सांकेतिक रूप दिले असेल, तर त्याच पद्धतीने DOG चे रूप काय?"
+    },
+    "options": [
+      { "id": "a", "en": "EPH", "mr": "EPH" },
+      { "id": "b", "en": "EPI", "mr": "EPI" },
+      { "id": "c", "en": "FPH", "mr": "FPH" },
+      { "id": "d", "en": "DNG", "mr": "DNG" }
+    ],
+    "correctOptionId": "a",
+    "hiddenExplanation": {
+      "en": "Each letter moves one step forward in the alphabet: D→E, O→P, G→H.",
+      "mr": "प्रत्येक अक्षर वर्णमालेत एक पाऊल पुढे जाते: D→E, O→P, G→H."
+    }
+  },
+  {
+    "id": "iq-blood-relation-05",
+    "grade": 7,
+    "paper": "paper2",
+    "subject": "intelligence",
+    "chapter": "Blood Relations",
+    "difficulty": "medium",
+    "question": {
+      "en": "Riya says, 'She is the daughter of my mother's only brother.' Who is that girl to Riya?",
+      "mr": "रिया म्हणते, 'ती माझ्या आईच्या एकुलत्या एक भावाची मुलगी आहे.' ती मुलगी रियाची कोण लागते?"
+    },
+    "options": [
+      { "id": "a", "en": "Sister", "mr": "बहिण" },
+      { "id": "b", "en": "Cousin", "mr": "चुलत / मावस बहीण" },
+      { "id": "c", "en": "Aunt", "mr": "मावशी" },
+      { "id": "d", "en": "Niece", "mr": "भाची" }
+    ],
+    "correctOptionId": "b",
+    "hiddenExplanation": {
+      "en": "Mother's only brother is Riya's uncle. His daughter is Riya's cousin.",
+      "mr": "आईचा एकुलता एक भाऊ म्हणजे रियाचा मामा. त्याची मुलगी म्हणजे रियाची मावस बहीण."
+    }
+  }
+]

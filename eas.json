@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 15.0.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production-apk": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production-aab": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "local-apk": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "local-aab": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}
