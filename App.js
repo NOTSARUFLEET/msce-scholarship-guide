@@ -1,5 +1,5 @@
-import 'react-native-gesture-handler';
-import 'react-native-reanimated'; // CRITICAL: This MUST be here to prevent the silent crash
+import 'react-native-gesture-handler'; // CRITICAL: Must be first
+import 'react-native-reanimated';      // CRITICAL: Must be second
 import React, { useMemo, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import {
@@ -14,6 +14,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { LanguageProvider, useLanguage } from './src/context/LanguageContext';
 import { AdProvider, ScreenBannerAd } from './src/ads/AdProvider';
@@ -375,14 +376,16 @@ function AppNavigator() {
 
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <LanguageProvider>
-        <AdProvider>
-          <StatusBar style="light" />
-          <AppNavigator />
-        </AdProvider>
-      </LanguageProvider>
-    </SafeAreaProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaProvider>
+        <LanguageProvider>
+          <AdProvider>
+            <StatusBar style="light" />
+            <AppNavigator />
+          </AdProvider>
+        </LanguageProvider>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
 
