@@ -28,7 +28,6 @@
     "react-native-webview": "13.13.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "eas-cli": "^18.8.1"
+    "@babel/core": "^7.25.2"
   }
 }
